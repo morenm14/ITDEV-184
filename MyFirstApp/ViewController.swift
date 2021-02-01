@@ -1,7 +1,6 @@
 //
 //  ViewController.swift
 //  MyFirstApp
-//
 //  Created by Mario Moreno on 1/25/21.
 //
 
