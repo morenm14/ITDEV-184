@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  test
+//  MyFirstApp
 //
 //  Created by Mario Moreno on 2/1/21.
 //
@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 
