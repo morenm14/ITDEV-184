@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TextFieldApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QfV-dp-5aC">
+                                <rect key="frame" x="65" y="420" width="284" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BwO-ZI-ftQ">
+                                <rect key="frame" x="70" y="485" width="279" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="send" textContentType="email"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdE-Us-Hx7">
+                                <rect key="frame" x="184" y="540" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="displayPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5sB-PK-wBg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BwO-ZI-ftQ" firstAttribute="top" secondItem="QfV-dp-5aC" secondAttribute="bottom" constant="31" id="1lv-aK-zKd"/>
+                            <constraint firstItem="QfV-dp-5aC" firstAttribute="centerX" secondItem="ZdE-Us-Hx7" secondAttribute="centerX" id="DxI-Rd-Re6"/>
+                            <constraint firstItem="BwO-ZI-ftQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="IjB-TF-3NX"/>
+                            <constraint firstItem="QfV-dp-5aC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="SpU-Aa-I1V"/>
+                            <constraint firstItem="QfV-dp-5aC" firstAttribute="trailing" secondItem="BwO-ZI-ftQ" secondAttribute="trailing" id="eYa-lJ-v6A"/>
+                            <constraint firstItem="QfV-dp-5aC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iKw-bL-eyt"/>
+                            <constraint firstItem="ZdE-Us-Hx7" firstAttribute="top" secondItem="BwO-ZI-ftQ" secondAttribute="bottom" constant="21" id="nIW-Ua-zk3"/>
+                            <constraint firstItem="QfV-dp-5aC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="420" id="y1u-it-NrZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myTextField" destination="BwO-ZI-ftQ" id="V1h-sF-odg"/>
+                        <outlet property="passwordTextField" destination="QfV-dp-5aC" id="J1V-5K-4w8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="83.967391304347828"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
