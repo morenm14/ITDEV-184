@@ -20,9 +20,9 @@
                                 <rect key="frame" x="20" y="97" width="374" height="166"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="166" id="HvS-tR-snp"/>
+                                    <constraint firstAttribute="height" constant="166" id="w7H-Js-Etb"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -31,7 +31,7 @@
                                 <rect key="frame" x="128" y="347" width="156" height="30"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="kDU-kT-jnm"/>
+                                    <constraint firstAttribute="height" constant="30" id="CXT-da-EIB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Button">
@@ -41,11 +41,11 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="odg-EZ-KV0"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZOI-Xi-ukM">
-                                <rect key="frame" x="20" y="531" width="374" height="206"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djM-d2-tC1">
+                                <rect key="frame" x="28" y="531" width="356" height="156"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="206" id="GFk-E1-mPS"/>
+                                    <constraint firstAttribute="height" constant="156" id="dQj-MO-HZN"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -56,15 +56,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ec4-v9-7pT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9gw-bq-3ls"/>
-                            <constraint firstItem="0o4-dg-Ugo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="Mht-kF-SzW"/>
-                            <constraint firstItem="0o4-dg-Ugo" firstAttribute="top" secondItem="ec4-v9-7pT" secondAttribute="bottom" constant="84" id="akk-bo-GtB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0o4-dg-Ugo" secondAttribute="trailing" constant="130" id="bES-eb-tEI"/>
-                            <constraint firstItem="ec4-v9-7pT" firstAttribute="leading" secondItem="ZOI-Xi-ukM" secondAttribute="leading" id="lBf-Ea-jbE"/>
-                            <constraint firstItem="ec4-v9-7pT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="og7-Zg-bPX"/>
-                            <constraint firstItem="ec4-v9-7pT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="sGr-fd-f9m"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZOI-Xi-ukM" secondAttribute="bottom" constant="125" id="wOI-fk-xcU"/>
-                            <constraint firstItem="ec4-v9-7pT" firstAttribute="trailing" secondItem="ZOI-Xi-ukM" secondAttribute="trailing" id="ys2-s2-wC9"/>
+                            <constraint firstItem="djM-d2-tC1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="2WZ-cH-uNy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="djM-d2-tC1" secondAttribute="bottom" constant="175" id="FD4-8i-v9n"/>
+                            <constraint firstItem="ec4-v9-7pT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="JzW-rc-I2u"/>
+                            <constraint firstItem="0o4-dg-Ugo" firstAttribute="top" secondItem="ec4-v9-7pT" secondAttribute="bottom" constant="84" id="Sey-Wl-kHk"/>
+                            <constraint firstItem="ec4-v9-7pT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SqD-kg-bzj"/>
+                            <constraint firstItem="ec4-v9-7pT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bv0-3B-cy0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="djM-d2-tC1" secondAttribute="trailing" constant="30" id="k7z-Zd-uUI"/>
+                            <constraint firstItem="0o4-dg-Ugo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="mhM-l2-PP2"/>
+                            <constraint firstItem="0o4-dg-Ugo" firstAttribute="centerX" secondItem="djM-d2-tC1" secondAttribute="centerX" id="vss-j1-OmK"/>
                         </constraints>
                     </view>
                     <connections>
