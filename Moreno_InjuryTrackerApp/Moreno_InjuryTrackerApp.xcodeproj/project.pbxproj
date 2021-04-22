@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC059ACC2614AB2000CE324D /* NewInjuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC059ACB2614AB2000CE324D /* NewInjuryViewController.swift */; };
+		AC0E1D4A2614CF0E0060EE24 /* Moreno_FinalProjectAppnfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC0E1D492614CF0E0060EE24 /* Moreno_FinalProjectAppnfo.plist */; };
+		AC0E1D4E2614CF680060EE24 /* Moreno_InjuryTrackerAppnfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC0E1D4D2614CF680060EE24 /* Moreno_InjuryTrackerAppnfo.plist */; };
+		AC270250260FE1A900BFE8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27024F260FE1A900BFE8B9 /* AppDelegate.swift */; };
+		AC270252260FE1A900BFE8B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC270251260FE1A900BFE8B9 /* SceneDelegate.swift */; };
+		AC270257260FE1A900BFE8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC270255260FE1A900BFE8B9 /* Main.storyboard */; };
+		AC270259260FE1AB00BFE8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC270258260FE1AB00BFE8B9 /* Assets.xcassets */; };
+		AC27025C260FE1AB00BFE8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27025A260FE1AB00BFE8B9 /* LaunchScreen.storyboard */; };
+		AC270266260FE1EE00BFE8B9 /* PatientsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC270265260FE1EE00BFE8B9 /* PatientsScreen.swift */; };
+		AC27026A260FE3C400BFE8B9 /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC270269260FE3C400BFE8B9 /* PatientCell.swift */; };
+		AC27026D260FE4EA00BFE8B9 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27026C260FE4EA00BFE8B9 /* Patient.swift */; };
+		AC2702702610E0D600BFE8B9 /* PatienDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27026F2610E0D600BFE8B9 /* PatienDetailController.swift */; };
+		AC2702772612748000BFE8B9 /* AddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2702762612748000BFE8B9 /* AddPatientViewController.swift */; };
+		AC2702A12613C29800BFE8B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2702A02613C29800BFE8B9 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC059ACB2614AB2000CE324D /* NewInjuryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInjuryViewController.swift; sourceTree = "<group>"; };
+		AC0E1D492614CF0E0060EE24 /* Moreno_FinalProjectAppnfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Moreno_FinalProjectAppnfo.plist; sourceTree = "<group>"; };
+		AC0E1D4D2614CF680060EE24 /* Moreno_InjuryTrackerAppnfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Moreno_InjuryTrackerAppnfo.plist; sourceTree = "<group>"; };
+		AC27024C260FE1A900BFE8B9 /* Moreno_InjuryTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moreno_InjuryTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC27024F260FE1A900BFE8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC270251260FE1A900BFE8B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC270256260FE1A900BFE8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC270258260FE1AB00BFE8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC27025B260FE1AB00BFE8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC270265260FE1EE00BFE8B9 /* PatientsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsScreen.swift; sourceTree = "<group>"; };
+		AC270269260FE3C400BFE8B9 /* PatientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
+		AC27026C260FE4EA00BFE8B9 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		AC27026F2610E0D600BFE8B9 /* PatienDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatienDetailController.swift; sourceTree = "<group>"; };
+		AC2702762612748000BFE8B9 /* AddPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPatientViewController.swift; sourceTree = "<group>"; };
+		AC2702A02613C29800BFE8B9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC270249260FE1A900BFE8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC270243260FE1A800BFE8B9 = {
+			isa = PBXGroup;
+			children = (
+				AC27024E260FE1A900BFE8B9 /* Moreno_FinalProjectApp */,
+				AC27024D260FE1A900BFE8B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC27024D260FE1A900BFE8B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC27024C260FE1A900BFE8B9 /* Moreno_InjuryTrackerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC27024E260FE1A900BFE8B9 /* Moreno_FinalProjectApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC2702A02613C29800BFE8B9 /* LoginViewController.swift */,
+				AC27024F260FE1A900BFE8B9 /* AppDelegate.swift */,
+				AC059ACB2614AB2000CE324D /* NewInjuryViewController.swift */,
+				AC27026C260FE4EA00BFE8B9 /* Patient.swift */,
+				AC270265260FE1EE00BFE8B9 /* PatientsScreen.swift */,
+				AC27026F2610E0D600BFE8B9 /* PatienDetailController.swift */,
+				AC2702762612748000BFE8B9 /* AddPatientViewController.swift */,
+				AC270269260FE3C400BFE8B9 /* PatientCell.swift */,
+				AC270251260FE1A900BFE8B9 /* SceneDelegate.swift */,
+				AC270255260FE1A900BFE8B9 /* Main.storyboard */,
+				AC270258260FE1AB00BFE8B9 /* Assets.xcassets */,
+				AC27025A260FE1AB00BFE8B9 /* LaunchScreen.storyboard */,
+				AC0E1D4D2614CF680060EE24 /* Moreno_InjuryTrackerAppnfo.plist */,
+				AC0E1D492614CF0E0060EE24 /* Moreno_FinalProjectAppnfo.plist */,
+			);
+			path = Moreno_FinalProjectApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC27024B260FE1A900BFE8B9 /* Moreno_InjuryTrackerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC270260260FE1AB00BFE8B9 /* Build configuration list for PBXNativeTarget "Moreno_InjuryTrackerApp" */;
+			buildPhases = (
+				AC270248260FE1A900BFE8B9 /* Sources */,
+				AC270249260FE1A900BFE8B9 /* Frameworks */,
+				AC27024A260FE1A900BFE8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moreno_InjuryTrackerApp;
+			productName = TableViewControllerApp;
+			productReference = AC27024C260FE1A900BFE8B9 /* Moreno_InjuryTrackerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC270244260FE1A800BFE8B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AC27024B260FE1A900BFE8B9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AC270247260FE1A800BFE8B9 /* Build configuration list for PBXProject "Moreno_InjuryTrackerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC270243260FE1A800BFE8B9;
+			productRefGroup = AC27024D260FE1A900BFE8B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC27024B260FE1A900BFE8B9 /* Moreno_InjuryTrackerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC27024A260FE1A900BFE8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC27025C260FE1AB00BFE8B9 /* LaunchScreen.storyboard in Resources */,
+				AC0E1D4E2614CF680060EE24 /* Moreno_InjuryTrackerAppnfo.plist in Resources */,
+				AC0E1D4A2614CF0E0060EE24 /* Moreno_FinalProjectAppnfo.plist in Resources */,
+				AC270259260FE1AB00BFE8B9 /* Assets.xcassets in Resources */,
+				AC270257260FE1A900BFE8B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC270248260FE1A900BFE8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC270250260FE1A900BFE8B9 /* AppDelegate.swift in Sources */,
+				AC2702702610E0D600BFE8B9 /* PatienDetailController.swift in Sources */,
+				AC27026A260FE3C400BFE8B9 /* PatientCell.swift in Sources */,
+				AC059ACC2614AB2000CE324D /* NewInjuryViewController.swift in Sources */,
+				AC270252260FE1A900BFE8B9 /* SceneDelegate.swift in Sources */,
+				AC2702A12613C29800BFE8B9 /* LoginViewController.swift in Sources */,
+				AC270266260FE1EE00BFE8B9 /* PatientsScreen.swift in Sources */,
+				AC27026D260FE4EA00BFE8B9 /* Patient.swift in Sources */,
+				AC2702772612748000BFE8B9 /* AddPatientViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC270255260FE1A900BFE8B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC270256260FE1A900BFE8B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC27025A260FE1AB00BFE8B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC27025B260FE1AB00BFE8B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC27025E260FE1AB00BFE8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC27025F260FE1AB00BFE8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC270261260FE1AB00BFE8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8WK9867R6;
+				INFOPLIST_FILE = "$(SRCROOT)/Moreno_FinalProjectApp/Moreno_FinalProjectAppnfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmcreative.-Moreno-InjuryTrackerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC270262260FE1AB00BFE8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8WK9867R6;
+				INFOPLIST_FILE = "$(SRCROOT)/Moreno_FinalProjectApp/Moreno_FinalProjectAppnfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmcreative.-Moreno-InjuryTrackerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC270247260FE1A800BFE8B9 /* Build configuration list for PBXProject "Moreno_InjuryTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC27025E260FE1AB00BFE8B9 /* Debug */,
+				AC27025F260FE1AB00BFE8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC270260260FE1AB00BFE8B9 /* Build configuration list for PBXNativeTarget "Moreno_InjuryTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC270261260FE1AB00BFE8B9 /* Debug */,
+				AC270262260FE1AB00BFE8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC270244260FE1A800BFE8B9 /* Project object */;
+}
